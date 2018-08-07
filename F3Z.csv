@@ -1,1 +1,37 @@
-canonical,^8.1|8.0|7.0|6.4,form_type,1,FORM TYPEfiler_committee_id_number,2,FILER COMMITTEE ID NUMBERprincipal_committee_name,3,PRINCIPAL COMMITTEE NAMEcoverage_from_date,4,COVERAGE FROM DATEcoverage_through_date,5,COVERAGE THROUGH DATEauthorized_committee_id_number,6,AUTHORIZED COMMITTEE ID NUMBERauthorized_committee_name,7,AUTHORIZED COMMITTEE NAMEcol_a_individual_contributions_itemized,8,11(a i.) Individuals Itemizedcol_a_political_party_contributions,9,11(b) Political Party Committeescol_a_pac_contributions,10,11(c) Other Political Committeescol_a_candidate_contributions,11,11(d) The Candidatecol_a_total_contributions,12,11(e) Total Contributionscol_a_transfers_from_authorized,13,12. Transfers  From Other Authorized Cmttescol_a_candidate_loans,14,13(a) Loans made or guarn. by the Candidatecol_a_other_loans,15,13(b) All Other Loanscol_a_total_loans,16,13(c) Total Loanscol_a_offset_to_operating_expenditures,17,14. Offsets to Operating Expenditurescol_a_other_receipts,18,15. Other Receiptscol_a_total_receipts,19,16. Total Receiptscol_a_operating_expenditures,20,17. Operating Expenditurescol_a_transfers_to_authorized,21,18. Transfers to Other Authorized Committeescol_a_candidate_loan_repayments,22,19(a) Of Loans made or guar. by the Cand.col_a_other_loan_repayments,23,"19(b) Loan Repayments, All Other Loans"col_a_total_loan_repayments,24,19(c) Total Loan Repaymentscol_a_refunds_to_individuals,25,20(a) Refund/Individuals Other than Pol. Cmtescol_a_refunds_to_party_committees,26,20(b) Refund/Political Party Committeescol_a_refunds_to_other_committees,27,20(c) Refund/Other Political Committeescol_a_total_refunds,28,20(d) Total Contribution Refundscol_a_other_disbursements,29,21. Other Disbursementscol_a_total_disbursements,30,22. Total Disbursementscol_a_cash_beginning_reporting_period,31,23. Cash Beginning Reporting Periodcol_a_cash_on_hand_close,32,27. Cash on hand at Close Periodcol_a_debts_to,33,9. DEBTS TO ( Totals from SCH C and/or D)col_a_debts_by,34,10. DEBTS BY (Totals from SCH C and/or D)col_a_net_contributions,35,(6c) Net Contributionscol_a_net_operating_expenditures,36,(7c) NET Operating Expenditures.
+canonical,^8.1|8.0|7.0|6.4,,^2,,^1,
+form_type,1,FORM TYPE,1,FORM TYPE,1,FORM TYPE
+filer_committee_id_number,2,FILER COMMITTEE ID NUMBER,6,FEC COMMITTEE ID NUMBER (Auth),2,FEC COMMITTEE ID NUMBER (PCC)
+principal_committee_name,3,PRINCIPAL COMMITTEE NAME,3,COMMITTEE NAME (PCC),3,COMMITTEE NAME (PCC)
+coverage_from_date,4,COVERAGE FROM DATE,,,,
+coverage_through_date,5,COVERAGE THROUGH DATE,,,,
+authorized_committee_id_number,6,AUTHORIZED COMMITTEE ID NUMBER,,,,
+authorized_committee_name,7,AUTHORIZED COMMITTEE NAME,7,COMMITTEE NAME (Auth),7,COMMITTEE NAME (AUTH)
+col_a_individual_contributions_itemized,8,11(a i.) Individuals Itemized,8,(a) 11(a)iii individuals total,8,(a) 11(a)iii individuals total
+col_a_political_party_contributions,9,11(b) Political Party Committees,9,(b) 11(b) Political party committees,9,(b) 11(b) Political party committees
+col_a_pac_contributions,10,11(c) Other Political Committees,10,(c) 11(c) other pol committees (PACs),10,(c) 11(c) other pol committees (PACs)
+col_a_candidate_contributions,11,11(d) The Candidate,11,(d) 11(d) the candidate,11,(d) 11(d) the candidate
+col_a_total_contributions,12,11(e) Total Contributions,12,(e) 11(e) total contributions,12,(e) 11(e) total contributions
+col_a_transfers_from_authorized,13,12. Transfers  From Other Authorized Cmttes,13,(f) 12 Transfers from other auth cmtes,13,(f) 12 Transfers from other auth cmtes
+col_a_candidate_loans,14,13(a) Loans made or guarn. by the Candidate,14,(g) 13(a) made or guarn by candidate,14,(g) 13(a) made or guarn by candidate
+col_a_other_loans,15,13(b) All Other Loans,15,(h) 13(b) all other loans,15,(h) 13(b) all other loans
+col_a_total_loans,16,13(c) Total Loans,16,(i) 13(c) total loans,16,(i) 13(c) total loans
+col_a_offset_to_operating_expenditures,17,14. Offsets to Operating Expenditures,17,(j) 14 offsets to operating expend,17,(j) 14 offsets to operating expend
+col_a_other_receipts,18,15. Other Receipts,18,(k) 15 Other receipts,18,(k) 15 Other receipts
+col_a_total_receipts,19,16. Total Receipts,19,(l) 16 total receipts,19,(l) 16 total receipts
+col_a_operating_expenditures,20,17. Operating Expenditures,20,(m) 17 Operating Expenditures,20,(m) 17 Operating Expenditures
+col_a_transfers_to_authorized,21,18. Transfers to Other Authorized Committees,21,(n) 18 Transfers to other auth cmtes,21,(n) 18 Transfers to other auth cmtes
+col_a_candidate_loan_repayments,22,19(a) Of Loans made or guar. by the Cand.,22,(o) 19(a) made or guaranteed by cand,22,(o) 19(a) made or guaranteed by cand
+col_a_other_loan_repayments,23,"19(b) Loan Repayments, All Other Loans",23,(p) 19(b) all other loans,23,(p) 19(b) all other loans
+col_a_total_loan_repayments,24,19(c) Total Loan Repayments,24,(q) 19(c) total loan repayments,24,(q) 19(c) total loan repayments
+col_a_refunds_to_individuals,25,20(a) Refund/Individuals Other than Pol. Cmtes,25,(r) 20(a) total refunds individuals,25,(r) 20(a) total refunds individuals
+col_a_refunds_to_party_committees,26,20(b) Refund/Political Party Committees,26,(s) 20(b) Refunds Political Pty cmtes,26,(s) 20(b) Refunds Political Pty cmtes
+col_a_refunds_to_other_committees,27,20(c) Refund/Other Political Committees,27,(t) 20(c) Refunds other Polit cmtes,27,(t) 20(c) Refunds other Polit cmtes
+col_a_total_refunds,28,20(d) Total Contribution Refunds,28,(u) 20(d) total contribution refunds,28,(u) 20(d) total contribution refunds
+col_a_other_disbursements,29,21. Other Disbursements,29,(v) 21 Other disbursements,29,(v) 21 Other disbursements
+col_a_total_disbursements,30,22. Total Disbursements,30,(w) 22 Total disbursements,30,(w) 22 Total disbursements
+col_a_cash_beginning_reporting_period,31,23. Cash Beginning Reporting Period,31,(x) 23 COH beginning reporting period,31,(x) 23 COH BEGINNING REPORTING period
+col_a_cash_on_hand_close,32,27. Cash on hand at Close Period,32,(y) 27 COH at close of period,32,(y) 27 cash on hand at close period
+col_a_debts_to,33,9. DEBTS TO ( Totals from SCH C and/or D),,,,
+col_a_debts_by,34,10. DEBTS BY (Totals from SCH C and/or D),,,,
+col_a_net_contributions,35,(6c) Net Contributions,35,(bb) 6(c) net contributions,35,(bb) 6(c) net contributions
+col_a_net_operating_expenditures,36,(7c) NET Operating Expenditures.,36,(cc) 7(c) net operating expenditures,36,(cc) 7(c) net operating expenditures
